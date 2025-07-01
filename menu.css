@@ -1,0 +1,207 @@
+body{
+    background-image: url(backgmenu.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    
+    
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 65px;
+    margin-left: 60px;
+    flex-wrap: wrap
+    
+}
+
+button{
+    border: none;
+    background: transparent;
+}
+
+#Register, #Delivery{
+    text-decoration: none;
+    border: 1.5px solid white;
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    color :white;
+    font-family:system-ui;
+    letter-spacing: 1.5px;
+    border-width:1.75px 
+
+}
+#Call_Waiter{
+    text-decoration: none;
+    background-color: gold;
+    padding: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 15px;
+    border: 0px;
+    color: black;
+    font-family:system-ui;
+    font-weight:650;
+    letter-spacing: 1.5px;
+}
+
+#Sac{
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    padding:14px;
+    color: black;
+    font-family: system-ui;
+    font-weight: 650;
+
+
+
+}
+div.nav{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+
+}
+
+main > p{
+    color: white;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    
+}
+.contenu{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+    gap: 10px;
+    align-items: center;
+}
+
+h4,p,h3,h2{
+    color: antiquewhite;
+}
+img{
+    border-radius: 30px;
+    width: 175px;
+    height: 120px;
+}
+
+h3,h4,p{
+    margin: 0;
+    min-width: 150px;
+    margin-bottom: 5px;
+    
+    
+}
+
+.rayen > h2,.rayen > p{
+    margin-left: 100px;
+}
+
+.rayen > h2{
+    margin-bottom: 8px;
+    padding-bottom: 0px;
+    letter-spacing: 3px;
+    color: gold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside.container {
+    margin-left: 30px;
+  }
+  aside {
+    margin-top: 110px;
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .pizza {
+    width: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(https://www.moulinex-me.com/medias/?context=bWFzdGVyfHJvb3R8MTQzNTExfGltYWdlL2pwZWd8YUdObEwyaG1aQzh4TlRrMk9EWXlOVGM0TmpreE1DNXFjR2N8MmYwYzQ4YTg0MTgzNmVjYTZkMWZkZWZmMDdlMWFlMjRhOGIxMTQ2MTZkNDk4ZDU3ZjlkNDk2MzMzNDA5OWY3OA);
+    height: 75px;
+    background-position: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+  }
+  h4 {
+    font-size: 20px;
+    margin-left: 12px;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+  p {
+    margin-left: 12px;
+    color: white;
+    margin-top: 5px;
+    text-align: start;
+  }
+  .pasta {
+    width: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(cooked-pasta2.jpg);
+    background-position: 60%;
+    height: 75px;
+    background-position: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+  }
+  h2 {
+    color: gold;
+    margin-left: 15px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 2px;
+  }
+
+  .burrito {
+    width: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(burrito.webp);
+    height: 75px;
+    background-position: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+  }
+  .sushi {
+    width: 245px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(sushi.jpg);
+    height: 75px;
+    background-position: 90%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 23px;
+  }
+  
+
